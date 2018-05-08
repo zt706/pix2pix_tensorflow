@@ -103,6 +103,9 @@ def load(path):
     if ext == ".jpg":
         print('hahaha path === ', path)
         image = decode_jpeg(contents=contents)
+        print('decode img end === ')
+        print('tf.image.decode_jpeg === ', tf.image.decode_jpeg)
+        
     elif ext == ".png":
         image = decode_png(contents=contents)
     else:
