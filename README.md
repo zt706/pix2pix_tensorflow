@@ -1,5 +1,9 @@
 # pix2pix-tensorflow
 
+step 1: ./gen_data.shp
+step 2: ./train.sh
+step 3: ./test.sh
+
 Based on [pix2pix](https://phillipi.github.io/pix2pix/) by Isola et al.
 
 [Article about this implemention](https://affinelayer.com/pix2pix/)
